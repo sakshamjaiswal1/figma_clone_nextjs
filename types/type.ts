@@ -118,7 +118,10 @@ export type ShapesMenuProps = {
   imageInputRef: any;
 };
 
-export type Presence = any;
+export type Presence = {
+  cursor: { x: number; y: number } | null;
+  message: string;
+};
 
 export type LiveCursorProps = {
   others: readonly User<Presence, BaseUserMeta>[];

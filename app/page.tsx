@@ -1,11 +1,10 @@
-import { CollaborativeApp } from "./CollaborativeApp";
-import Room from "./Room";
-
+import Live from "@/components/Live";
 
 export default function Page() {
   return (
-    <Room>
-      <CollaborativeApp />
-    </Room>
+    <div className="h-[100vh] w-full flex items-center justify-center">
+    
+      <Live />
+    </div>
   );
 }
